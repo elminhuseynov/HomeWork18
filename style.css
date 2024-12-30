@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    cursor: pointer;
+}
+li{
+    transition: 0.3s;
+}
+.color {
+    color: #BAC964;
+}
+
+
+
+.box {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.scale {
+    transform: scale(1.3);
+}
